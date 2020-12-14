@@ -1,0 +1,108 @@
+Day-1[14-12-2020]:
+==================
+	Good Evening...
+	
+	Algorithm:
+	==========
+		-> step to step instructions[stepwise][english flow] 
+	
+	Flowchart:
+	==========
+		-> Pictorial representation [circle,rectange,parallelogram,diamond,flow]
+		
+	Pseduocode:
+	===========
+		-> stepwise but it can be wriiten in programming format
+		
+	Links:
+	======
+	https://www.brainkart.com/article/Algorithm,-Pseudocode-and-Flowchart_6945/
+
+	
+Classification of Programming Languages:
+========================================
+	Low Level Language
+	High Level Language 
+--------------------------
+	[C,C++,Java] -> Human can understand the language [Machine didnt] [English words]
+	print("c")
+	High Level Language -> [Compiler]
+	
+	Assembly Level Language -> [Embedded C,MicroProcessor and Micro Controller][English Words]
+	Print C[mov, copy, Add] [0,1]
+	
+	Machine Level Language -> Number format [0,1][Low Level Language]
+
+	Hardware
+	
+	Links:
+	======
+	https://codeforwin.org/2017/05/programming-languages-classification.html#:~:text=Programming%20languages%20are%20basically%20classified,these%20category%20and%20sub%2Dcategory.
+
+	https://codeforwin.org/2017/05/low-level-languages-advantages-disadvantages.html
+	
+	https://www.javatpoint.com/classification-of-programming-languages
+
+Language Translator:
+====================
+
+
+Overview of C:
+==============
+
+	History of C:
+	=============
+	Advantages and DisAdvantages of C:
+	==================================
+	
+	Literals,Identifiers,tokens
+	
+	identify => variable
+	
+	a = 10 -> 3 tokens [1 -> tokens]
+	
+	ac = 20 => Identifiers,variable
+	
+	statements => combination of Identifiers,words,variables and tokens
+	
+	functions -> printf(),scanf()
+	
+	Variable:
+	=========
+		-> To store some data [data -> store]
+		-> To retieve
+		-> It can Changes the Value
+		-> It occupies particular memory address [but it stores in different address locations]
+		
+		Ex: a = 20
+			a = 4567 [memory location]
+			b = 10
+			b = 234 [memory location]
+	
+	Keywords: [Reserved Words]:
+	==========================
+		-> 36 keywords => for,if,print,scanf,else,while,float,int,char etc.,
+		should not be used as a Variable
+		
+	Data Types:
+	===========
+	int -> short -> 2 bytes,long -> 4 bytes => Exact numbers => 23,45,10,1
+	float -> .4 decimal points -> 4 bytes
+	double -> .15 decimal points -> 8 bytes
+	string -> character => ",' => Character[number,float,character]
+	"ramu",'23','4', -> 1 byte
+	ramu => 4 bytes => "\n"
+	
+	Seperator Operators: sizeof() => To know how much of size is utilised for that particular data type.
+	
+	Operators:
+	==========
+	
+	
+
+	
+	
+	
+	
+	
+	
