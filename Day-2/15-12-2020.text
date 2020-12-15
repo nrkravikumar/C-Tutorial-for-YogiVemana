@@ -1,0 +1,78 @@
+
+15-12-2020:
+===========
+	Operators:
+	==========
+	Operator => +,-,*,%,[Mathematical operations] 
+	Operand => variables 
+	
+	Conditional => Ternary => [condition : True ? False],
+	incre/decr => ++,--,[post,pre] => a=20; a++,++a
+	
+	- Arithmetic operator: +,-,*,/,%
+	- Logical operator: AND,OR,NOT,XOR => Values
+	- Relational operator: ==,<=,>=,>,<, [checking]
+	- Assignment operator: +=,-=,*=,/=,%=
+	- Bitwise operator: &&,||,~[tilde],>>[Right shift],<<[Left Shift] =>[values]
+	- Misc operator: .,sizeof,[:?],& -> address, * -> Pointer  
+
+	Assignment: a = 20
+	b = 10
+	a = a+b => a+=b => a = 30
+	a = a-b 
+	a -= b
+	
+	C Program: Execute
+	==================
+	 -> Editor => [notepad => syntax => colors,function,string,fontsize,indentation => spacing,cmd prmpt]
+	
+	 -> Compiler => TDM GCC Compiler,gcc,cc => linux
+		-> Checking => cmd 
+					=> gcc --version
+	
+	=> Command Prompt => .exe[execute], .msi[microsoft installer]
+	
+	=> Terminal => .sh[shell], .zip
+
+	Execution:
+	==========
+	.c => source
+	.o => objects
+	.exe => executeable
+	
+	=> cmd 
+		=> gcc "filename.c"
+		=> [a.exe] => output
+	
+	C Program Structure:
+	====================
+	- Comments => Describes about Program info => optional
+		- Single Line -> //
+		- Multi Line -> <!-- 
+							-->
+	- Header Section => C Library
+		#include<stdio.h> => Pre-Processor Directives
+		=> # -> Macros => index [Address]
+		=> include => involve
+		=> stdio.h => header file
+		Header File:
+		============
+		- stdio.h => standard input and output => scanf(),printf(),main()
+		- conio.h => console input and output => clrscr(),getch()
+		- string.h => strings => strrev(),strcpy(),strcmp()
+		- stdlib.h => Standard Library => EXIT()
+		- math.h => Mathematical operations => pow(),sqrt(),trignometric
+	- Constant Values [Capital Letters] [Optional][Value can't change]
+		-> #define MAX 10
+	- Global Variables => Value can be changes
+		- int a=20
+	- Function Prototype [optional]
+		- int add(int c,int d); => function prototype
+	- Function [Function Prototype is not mandatory]
+	- Main Function
+		=> Body [variables,conditional,operators,Loop]
+		=> return return value
+	- Function 
+	
+	
+
