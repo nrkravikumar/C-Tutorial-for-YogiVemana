@@ -1,0 +1,62 @@
+16-12-2020:
+===========
+	
+	Execution:
+	=========
+	
+	Notepad : sample.c [source code]
+	
+	command prompt : => source file[sample.c] Location
+					 => cmd.exe
+					 => gcc sample.c
+					 => a.exe
+					 => a (or) a.exe
+	
+	Object:
+	=======
+	=> cmd => gcc "filename.c" -o "objectname" 
+	
+	
+	Advanced Editor: [Editor + Compiler]
+	====================================
+		=> Geany
+			=> Fontsize incre/decr => cntrl + (+)
+								   => cntrl + (-)	
+			=> Indendations
+			=> Color combination
+		=> compiler:
+			- .c => compile => f8 => [.o]
+			- .o => build => f9 => [.exe]
+			- .exe => execute => f5 => output
+	
+	Compilation Process:
+	====================
+	
+	.c -> .o => Assembler [english -> assembly Language => mov,cpy]
+	.o -> .exe => Linker [Assembly Language -> Machine language]
+	.exe => command prompt => output
+	
+	Function:
+	=========
+	Syntax:
+	--------
+	return_type func_name(arguments)
+	{
+		//stmnts
+		return return value;
+	}
+	
+	FormatSpecifiers:
+	=================
+	int => %d
+	float => %f
+	double => %ld
+	char => %c
+	string => %s
+	long long int => %lld
+	
+	Signed value: +,-
+	Unsigned value: + 
+	
+	
+	
