@@ -1,0 +1,149 @@
+
+25-12-2020:
+===========
+	Good Morning....
+		
+	Static Programming: [coding value]
+	===================
+		- Fixed Value [int a=20,b=30] [50]
+		- 100 => [output => 50]
+		- value have bee change then we have to modify it in code 
+		
+	Dynamic Programming: [runtime value]
+	====================
+		- Not fixed values [int a,b; scanf("%d%d",&a,&b);]
+		- 100 => [100 -> input,100 => output ]
+		- Value can be accessed from user when program is in execute state.
+		
+	Conditional Statements:[Either True or False]
+	=============================================
+		- Checking [ T = F ]
+		
+		- if
+		- if-else
+		- else if ladder
+		- nested if [True]
+		- switch
+		
+	if:[Condition => True or False ][print -> single][1]
+	====================================================
+	Syntax:
+	=======
+		if(condition)
+		{
+			//stmnt;
+		}
+	
+	if-else:[condition => True or false => print[single]][2]
+	=======================================================
+	Syntax:
+	=======
+		if(condition)
+		{
+			//stmnt-1;
+		}
+		else
+		{
+			//stmnt-2;
+		}
+		
+	Nested if:[2 or more cases are True or False]
+	==========
+	Syntax:
+	=======
+		if(condition-1)
+		{
+			if(condition-2)
+			{
+				if(condition-3)
+				{
+					//stmnt-3;
+				}
+				else
+				{
+					//stmnt-2;
+				}
+			}
+			else
+			{
+				//stmnt-1;
+			}
+		}
+		else
+		{
+			//stmnt-0;
+		}
+	
+	else-if ladder:[2 or more cases either True or False]
+	=====================================================
+	Syntax:
+	=======
+		if(condition-1)
+		{
+			//stmnt-1;
+		}
+		else if(condition-2)
+		{
+			//stmnt-2;
+		}
+		else if(condition-3)
+		{
+			//stmnt-3;
+		}
+		else if(condition-4)
+		{
+			//stmnt-n;
+		}
+		else
+		{
+			//stmnt-0;
+		}
+	
+	Switch Case:[Exact know condition][Time saves]
+	==============================================
+	Syntax:
+	======
+		switch(option)
+		{
+			case 1: //stmnt;break;
+			case 2: //stmnt;break;
+			|         |        |
+			case n: //stmnt-n;break;
+			default:
+				//stmnt;
+		}
+	
+	Own Header File Creation:
+	=========================
+	#include<stdio.h>
+	#include "sm.h"
+	
+	int main()
+	{
+		printf("%d",d); 
+		return 0;
+	}
+	
+	sm.h
+	=====
+	int d=30;
+	
+	
+	Variables: To Store a Value
+	==========
+		- Local Varaibles
+			=> Within a function,program,loop
+			 
+		- Global Varaibles
+			=> Within a program
+			
+		- Static Variables[Function static => Changes]
+			=> Previous Program output value => varaible
+			=> Persent Program input
+			 
+		- Extern Variables
+			=> Value can be accessed fromm other file by using header .h
+		
+	variables => n,m,a,b,c,p,q,r
+	Iteration => Loops => i,j,k,p,q
+	
