@@ -1,0 +1,53 @@
+
+26-12-2020:
+===========
+	Good Morning
+	
+	Iteration or Loops or repititions or control statements:
+	========================================================
+	
+	To control the flow of execution..
+	- to print the number of statements for n number of times 
+	
+	- for => particular range [value => yes] 
+	- while => Infinity loops [condition is true]
+	- do-while => action is done [condition False => 1]
+	
+	
+	printf("a\n");
+	printf("a\n");
+	printf("a\n");
+	printf("a\n");
+	
+	for:[particular range]
+	======================
+		Syntax:
+		=======
+			for(initialization;condition;iteration)
+			{
+				//statements;
+			}
+		Ex:
+		===
+			for(int i=0;i<=5;i++)
+			{
+				printf("%d\n",i);
+			}
+			printf("%d",i); => 6
+			
+		1 => initialization of iteration variable => i=0
+		2 => condition => i<=5
+		3 => statements => 0 print
+		4 => incr/decr => i+1 => i=1
+		5 => condition => i<=5
+		6 => statements => 1 print
+		7 => incr/decr => i+1 => i=2
+		
+	Jumping statements:
+	===================
+	
+	goto
+	continue
+	break
+	
+	
