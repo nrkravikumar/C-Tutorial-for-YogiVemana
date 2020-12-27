@@ -1,0 +1,43 @@
+
+27-12-2020:
+==========
+	Good Morning....
+	
+	while:
+	======
+	- For infinity loop => range => X
+	- Range => yes
+	- forward,backward and infinity
+	
+	Syntax:
+	=======
+		initialization;
+		while(condition) [condition = True execute]
+		{
+			//stmnts;
+			incr/decr;
+		}
+	1 => initialization of iteration variable => i=0
+	2 => condition => i<=5
+	3 => statements => 0 print
+	4 => incr/decr => i+1 => i=1
+	5 => condition => i<=5
+	6 => statements => 1 print
+	7 => incr/decr => i+1 => i=2
+	
+	forwarding:
+	===========
+	for(i=startpoint;i<=endpoint;i++)
+	{
+		//stmnts
+	}
+	
+	Backwarding:
+	============
+	for(i=endpoint;i>=startpoint;i--)
+	{
+		//stmnts
+	}
+	
+	cntrl + i => Indendation
+	cntrl + u => unindentation
