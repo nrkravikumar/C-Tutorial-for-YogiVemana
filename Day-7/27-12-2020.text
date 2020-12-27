@@ -41,3 +41,79 @@
 	
 	cntrl + i => Indendation
 	cntrl + u => unindentation
+
+	Good Afternoon...
+	
+	Do-While:
+	=========
+		- Action performs and checks the condition
+		- False => 1 print
+		- True => False => print 
+	
+	Syntax:
+	=======
+		initialisation;
+		do
+		{
+			//stmnts
+			incr/decr;
+		}while(condition);
+	
+	1 => variable initialisation
+	2 => stmnt
+	3 => incr/decr
+	4 => condition
+	5 => stmnts
+	6 => incr/decr
+	7 => condition 
+	
+	Jumping statements:
+	===================
+		-> To control the flow of execution
+		=> within a loop,switch => break
+		=> loop within a conditioanl statements
+		
+		Types:
+		- goto => Label based:
+		- continue => skip 
+		- break => exit
+	
+	Inner Loops:
+	============
+		- Loop within a Loop
+		
+		Syntax:
+		=======
+		for(initialization;condition;incr/decr)
+		{
+			for(initialisation;condition;incr/decr)
+			{
+				//stmnts;
+			}
+		}
+	
+Tasks:
+1.Write a program to calculate sum of a number.
+	Ex: 
+	Input: 345
+	Output: sum of a given number 345 is: 12
+
+2.Write a program to calculate the count of even numbers
+	Ex:
+	Input: 254678
+	Output: Count of even numbers in a given number 254678 is: 4
+
+3.Write a program to calculate the sum of left half digits in a number
+	Ex:
+	Input: 345678
+	Output: Given number is 345678 and its left half sum is: 12
+	
+	Input: 45679
+	Output: Given number is 45679 and its left half sum is: 9
+ 
+	
+	
+	
+	
+	
+	
