@@ -19,7 +19,7 @@ int main()
 		n = n/10;
 		c++;
 	}
-	printf("Reverse number is: %d and count is: %d\n",r,c);
+	//~ printf("Reverse number is: %d and count is: %d\n",r,c);
 	while(r!=0)
 	{
 		if(z >(c%2==0)+1)
