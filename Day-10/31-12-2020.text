@@ -1,0 +1,19 @@
+
+31-12-2020:
+===========
+	Good Morning...
+	
+	Inner Loops or Nested Loops:
+	============================
+	Loop within a loop
+	
+	syntax:
+	=======
+	for(initialization;condition;incr/decr)
+	{
+		for(initialization;condition;incr/decr)
+		{
+			//stmnt
+		}
+	}
+
