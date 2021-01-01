@@ -1,0 +1,25 @@
+
+01-01-2021:
+===========
+	Good Morning:
+	
+	
+	Number Patterns:
+	Star Patterns:
+	String Patterns: 
+	integer values => print[diagonal,hallow square,diamond]
+	
+	diagonal => 
+	[1 0 0] [1 0 1]
+	[0 1 0] [0 1 0]
+	[0 0 1] [1 0 1]
+	star => 
+	[* * *]   [*    ]
+	[* * *]   [* *  ]
+	[* * *]   [* * *]
+	hallow square =>
+	[* * *]
+	[*   *]
+	[* * *]
+	
+	
