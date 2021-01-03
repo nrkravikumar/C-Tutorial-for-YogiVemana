@@ -1,0 +1,60 @@
+03-01-2021:
+===========
+	Good Afternoon.....
+	
+	Functions:
+	==========
+	 - To perform a specific Task...
+	 
+	 Uses:
+	 =====
+		- To reduce the code.
+		- Complex to solve it into small problems.
+		- reuseablility of code.
+	
+	Syntax:
+	=======
+		return_type func_name(arguments)
+		{
+			//stmnts;
+			return return_value;
+		}
+	
+	Types:
+	======
+		- Predefined functions [built]:
+			- Work is fixed from development state
+				- printf => displaying
+				- scanf => Reading
+				- pow => power value
+				- sqrt => square
+				- strcpy => string copy
+				- main => first execution starts from main function
+				
+		- User Defined functions [Own]:
+			- User has to decide some work to a function
+				- read => reading
+				- prin => display
+		
+		=> 4 Types:
+			- with return_type and with arguments
+			- with return_type and without arguments
+			- without return_type and with arguments
+			- without return_type and without arguments
+		
+		- with return_type and with arguments:
+			=> Reading => Main
+			=> printing => Main
+			=> Logic => function
+		- with return_type and without arguments:
+			=> Reading => function
+			=> printing => Main
+			=> Logic => function
+		- without return_type and with arguments:
+			=> Reading => Main
+			=> printing => function
+			=> Logic => function
+		- without return_type and without arguments:
+			=> Reading => function
+			=> printing => function
+			=> Logic => function
